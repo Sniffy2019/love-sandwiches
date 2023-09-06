@@ -16,8 +16,6 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('Love-Sandwiches')
 
 
-
-
 def get_sales_data():
     """
     Get sales figures input from the user.
